@@ -6,13 +6,9 @@ let loader = document.getElementById("loader");
 let quoteContainer = document.getElementById("quote-container");
 let quotes;
 
-
+// TODO ESSA FUNCAO ESTA RUIM
 function tweetQuote () {
     window.open('https://twitter.com/intent/tweet?text=' + quote.textContent + " - " + author.textContent, '_blank');
-}
-
-function teste () {
-    console.log('dsad')
 }
 
 function onLoading () {
